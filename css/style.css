@@ -1,0 +1,55 @@
+/* Colores de la marca */
+:root {
+  --chocolate: #8B4513;
+  --crema: #FFF5E1;
+}
+
+body {
+  background-color: var(--crema);
+}
+
+h1, h2 {
+  color: var(--chocolate);
+}
+
+.navbar {
+  background-color: var(--chocolate);
+}
+
+/* Botón principal en color chocolate */
+.btn-primary {
+  --bs-btn-bg: var(--chocolate);
+  --bs-btn-border-color: var(--chocolate);
+  --bs-btn-hover-bg: #6d360f;
+  --bs-btn-hover-border-color: #6d360f;
+  --bs-btn-active-bg: #6d360f;
+  --bs-btn-active-border-color: #6d360f;
+}
+
+.footer-tienda {
+  background-color: var(--chocolate);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.precio {
+  color: var(--chocolate);
+  font-weight: bold;
+}
+
+.imagen-producto {
+  height: 180px;
+  object-fit: cover;
+}
+
+.imagen-detalle {
+  width: 100%;
+  max-width: 350px;
+}
+
+.img-carrito {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
